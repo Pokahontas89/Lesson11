@@ -221,7 +221,7 @@
 html,
 body {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 100%;
+	font-size: 67.5%;
 }
 .wrapper {
     background: linear-gradient(51.78deg, #5540BF 28.44%, #AFA1F9 99.76%);
@@ -351,6 +351,7 @@ body {
     font-size: 1.8rem;
     line-height: 122%;
     color: #5540BF;
+	text-transform: uppercase;
 }
 .footer_text {
     font-family: 'Open Sans', sans-serif;
