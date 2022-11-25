@@ -44,6 +44,23 @@
   html {
     font-size: 5.5px;
   }
+  .hero_text {
+    margin-right: 2rem;
+  }
+  .hero_link {
+
+}
+.hero_link:first-child {
+  margin-right: 4rem;
+}
+.hero_buttons {
+  display: flex;
+  margin-bottom: 4.5rem;
+  white-space: nowrap;
+
+
+}
+
 }
 
 @media (min-width: 48em) {
@@ -90,17 +107,28 @@
 .hero_text {
   width: 100%;
 }
-.hero_link {
-  display: block;
-  text-align: center;
+.hero_description {
+  margin-bottom: 7rem;
+  max-width: 64rem;
+}
+.hero_buttons {
+  flex-direction: column;
+  justify-content: center;
 }
 .hero_link:first-child {
   margin-right: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
+
+.hero_link {
+  display: block;
+  text-align: center;
+  margin-right: 0;
+}
 }
 .hero_subtext {
   font-size: 1.3rem;
   line-height: 140%;
+  display: initial;
 }
 .footer {
   padding-top: 3rem;
