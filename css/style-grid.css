@@ -69,7 +69,7 @@
     font-size: 10px;
   }
   .wrapper {
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
   }
   .container {
     width: 100%;
@@ -108,17 +108,12 @@
 }
 .hero_buttons {
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+
 }
 .hero_link:first-child {
   margin-right: 0;
   margin-bottom: 4rem;
-
-.hero_link {
-  display: block;
-  text-align: center;
-  margin-right: 0;
-}
 }
 .hero_subtext {
   font-size: 1.3rem;
@@ -131,11 +126,26 @@
 
 .online .container {
   flex-direction: column-reverse;
+  text-align: center;
 } 
+.online_text {
+	padding: 0;
+}
+
 .online_img {
   width: 100%;
   height: auto;
+  margin-top: 1.4rem;
+  padding-bottom: 5rem;
 } 
+.online_link {
+  display: none;
+
+  display: block;
+  margin-bottom: 6rem;
+  justify-content: center;
+  align-items: center;
+}
 
 
 

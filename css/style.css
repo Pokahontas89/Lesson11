@@ -332,6 +332,41 @@ body {
 
 
 
+.list {
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 0px 0px 100px rgba(175, 161, 249, 0.3);
+	height: 28rem;
+}
+.list_buttons {
+	display: block;
+	text-align: center;
+	max-width: 116rem;
+
+}
+.list_link {
+	font-weight: 600;
+	font-size: 1.6rem;
+	line-height: 20px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 0,2rem solid #FFFFFF;
+ 	border-radius: 10rem;
+    padding: 2.5rem 5.1rem;
+	white-space: nowrap;
+	margin-right: 2rem;
+}
+.list_link_first {
+	color: #FFD100;
+	border: 0,2rem solid #FFD100;
+}
+
+
+
+
 .online {
 	background: linear-gradient(78.94deg, #5540BF 36.07%, #AFA1F9 99.58%);
 }
@@ -352,7 +387,7 @@ body {
 	line-height: 117%;
 }
 .online_description {
-	max-width: 51.6rem;
+	max-width: 55rem;
 	margin-bottom: 4.4rem;
 	font-family: 'Open Sans';
 	font-style: normal;
@@ -360,12 +395,12 @@ body {
 	font-size: 1.8rem;
 	line-height: 156%;
 }
-.online-img {
+.online_img {
 	width: 58.8rem;
 	height: 45.5rem;
-	margin-top: -4.2rem;
+	margin-top: -6.3rem;
 }
-.online-img img {
+.online_img img {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
