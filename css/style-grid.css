@@ -47,9 +47,6 @@
   .hero_text {
     margin-right: 2rem;
   }
-  .hero_link {
-
-}
 .hero_link:first-child {
   margin-right: 4rem;
 }
@@ -57,10 +54,7 @@
   display: flex;
   margin-bottom: 4.5rem;
   white-space: nowrap;
-
-
 }
-
 }
 
 @media (min-width: 48em) {
@@ -100,7 +94,8 @@
   height: 25.1rem;
   margin-bottom: 4rem;
 }
-.hero_header {
+.hero_header,
+.online_header {
   font-size: 3rem;
   line-height: 130%;
 }
@@ -130,6 +125,21 @@
   line-height: 140%;
   display: initial;
 }
+
+
+
+
+.online .container {
+  flex-direction: column-reverse;
+} 
+.online_img {
+  width: 100%;
+  height: auto;
+} 
+
+
+
+
 .footer {
   padding-top: 3rem;
   padding-bottom: 2.5rem;
