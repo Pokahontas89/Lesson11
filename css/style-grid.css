@@ -123,29 +123,23 @@
 
 
 
-.list_container {
-  width: 100%;
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-.list {
-  padding: 0;
+.list_container .list {
+  padding: 2rem 3rem;
 }
 .list_buttons {
-	text-align: center;
-	max-width: 116rem;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 .list_link {
-  text-decoration: none;
-  padding: 2.5rem 5.1rem;
-	line-height: 700%;
+    font-size: 1.3rem;
+    line-height: 700%;
+    padding: 1.5rem 3.1rem;
+    justify-content: center;
+    
 }
-
-
-
-
+.list_link:not(:last-child):not(.list_link_three) {
+  margin-right: 0;
+}
 
 
 .online .container {
