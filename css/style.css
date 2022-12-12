@@ -309,7 +309,6 @@ body {
     padding: 1.7rem 4.1rem;
 	max-width: 20rem;
 	display: block;
-	overflow: hidden;
 	white-space: nowrap;
 }
 .hero_link:first-child {
@@ -388,8 +387,8 @@ body {
 
 
 .call_img-big {
-	width: 53.6rem;
-	height: 40rem;
+	width: 51.6rem;
+    height: 37rem;
 }
 .call_img-big img {
 	width: 100%;
@@ -402,7 +401,7 @@ body {
 	width: 20.9rem;
 	height: 39.6rem;
 	position: absolute;
-	right: -3rem;
+	right: -2rem;
 	bottom: -5rem;
 }
 .call_img-small img {
@@ -410,6 +409,7 @@ body {
 	height: 100%;
 	object-fit: contain;
 }
+
 
 .call_header {
 	margin-bottom: 3.4rem;
@@ -431,6 +431,9 @@ body {
 }
 .call_link {
 	background-color: #5540BF;
+	text-align: center;
+	padding: 1.7rem 3.3rem;
+	max-width: 23rem;
 }
 .call_link:hover {
 	border: .1rem solid #5540BF;

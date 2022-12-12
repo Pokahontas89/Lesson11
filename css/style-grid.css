@@ -112,7 +112,9 @@
 .hero_buttons {
   flex-direction: column;
   align-items: center;
-
+}
+.link_hero {
+  width: 20rem;
 }
 .hero_link:first-child {
   margin-right: 0;
@@ -123,9 +125,6 @@
   line-height: 140%;
   display: initial;
 }
-
-
-
 
 
 
@@ -151,8 +150,6 @@
 
 
 
-
-
 .call {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
@@ -164,18 +161,27 @@
 .call_left {
 	position: relative;
 	left: -0.7rem;
-  margin-bottom: 2.1rem;
+  margin-bottom: 6rem;
   display: flex;
 }
 .call_img-big {
-	width: 100%;
+	width: 95%;
 	height: auto;
 }
+.call_img-big img {
+  width: 100%;
+  height: 100%;
+}
 .call_img-small {
-	width: 10.9rem;
-	position: absolute;
-	right: -2.3rem;
-  bottom: -12rem;
+  position: absolute;
+	width: 30rem;
+    height: auto;
+    right: -1rem;
+    bottom: -5rem;
+}
+.call_img-small img {
+  width: 100%;
+  height: 100%;
 }
 .call_header {
 	margin-bottom: 3.4rem;
@@ -198,17 +204,15 @@
 
 
 
-
-
-
-
-
 .online .container {
   flex-direction: column-reverse;
   text-align: center;
 } 
 .online_text {
-	padding: 0;
+  display: flex;
+	flex-direction: column;
+  align-items: center;
+  padding: 0;
 }
 .online_img {
   width: 100%;
@@ -224,7 +228,6 @@
   display: block;
   margin-bottom: 6rem;
 }
-
 
 
 
@@ -248,6 +251,70 @@
   text-align: end;
 }
 }
+
+@media (max-width: 44em) {
+  html {
+    font-size: 9px;
+  }
+  .call_img-small {
+    width: 31rem;
+    right: -1.5rem;
+    bottom: -5.4rem;
+  }
+}
+
+@media (max-width: 38em) {
+  html {
+    font-size: 8px;
+  }
+  .call_img-small {
+    width: 30rem;
+}
+}
+
+@media (max-width: 34em) {
+  html {
+    font-size: 7px;
+  }
+  .call_img-small {
+    width: 31rem;
+    right: -1.5rem;
+    bottom: -5.4rem;
+  }
+}
+
+@media (max-width: 30em) {
+  html {
+    font-size: 6px;
+  }
+  .call_img-small {
+    right: -0.9rem;
+    bottom: -5.3rem;
+  }
+}
+
+@media (max-width: 26em) {
+  html {
+    font-size: 4.5px;
+  }
+  .call_img-small {
+    width: 37rem;
+    right: -2rem;
+    bottom: -7.4rem;
+  }
+}
+
+@media (max-width: 21em) {
+  html {
+    font-size: 4.4px;
+  }
+  .call_img-small {
+    width: 30rem;
+    right: -1rem;
+    bottom: -5.4rem;
+  }
+}
+
 
 /* @media (max-width: 108em) {
   html {
